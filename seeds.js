@@ -22,5 +22,4 @@ db.yachts.insert([
     engine: "none - outboard required",
     review: "Fast thoroughbred racer. Sharp performance curve means to win races you really need to know what you are doing."
   }
-
-  ]);
+  ])

@@ -31,7 +31,7 @@ yachtRouter.put('/:id', function(req, res){
 //CREATE
 yachtRouter.post('/', function(req, res){
 
-  var newYacht = {
+  var yachtToAdd = {
     name: req.body.name,
     type: req.body.type,
     length: req.body.length,
@@ -39,7 +39,7 @@ yachtRouter.post('/', function(req, res){
     review: req.body.review
   }
 
-  yachtQuery.add(newYacht, function(docs){
+  yachtQuery.add(yachtToAdd, function(docs){
     res.json(docs);
   })
 })

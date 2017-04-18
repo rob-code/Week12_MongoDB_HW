@@ -5,9 +5,17 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon server.js"
-
+    "start": "nodemon server.js",
+    "bundle": "webpack -w"   
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.15.2",
+    "mongodb": "^2.2.26"
+  },
+  "devDependencies": {
+    "body-parser": "^1.17.1",
+    "webpack": "^2.2.0-rc.0"
+  }
 }

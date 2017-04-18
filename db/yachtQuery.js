@@ -11,7 +11,6 @@ var YachtQuery = function(collectionName){
 YachtQuery.prototype = {
 
   //getting data from the db
-
   all: function(onQueryFinished){
     MongoClient.connect(this.url, function(err, db){
 
@@ -23,7 +22,6 @@ YachtQuery.prototype = {
     }
 
   }.bind(this))
-  
   }
 }
 

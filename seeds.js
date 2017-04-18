@@ -6,7 +6,7 @@ db.yachts.insert([
     type: "Trapper 400",
     length: "28'",
     engine: "12hp",
-    review: "Great value for budget family cruising"
+    review: "Great value for budget family cruising."
   },
   { 
     name: "J-Berry",
@@ -22,4 +22,5 @@ db.yachts.insert([
     engine: "none - outboard required",
     review: "Fast thoroughbred racer. Sharp performance curve means to win races you really need to know what you are doing."
   }
+
   ]);

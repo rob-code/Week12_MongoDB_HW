@@ -1,4 +1,4 @@
-use ratings_site;
+use yacht_site;
 
 db.yachts.insert([
   { 
